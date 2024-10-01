@@ -25,3 +25,11 @@ Defining a `Product` interface that describes the basic methods and properties f
 ### Deserialization
 
 deserialization of JSON data from a file into `Product` objects
+
+## How to launch a project
+
+```c++
+git clone https://github.com/Arlan-Z/Shop-Console-App
+cd Shop-Console-App\Shop Application\Shop Application
+dotnet run
+```
