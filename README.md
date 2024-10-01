@@ -21,3 +21,7 @@ Creating the `IProduct` interface, which is implemented by various product class
 ### Abstraction
 
 Defining a `Product` interface that describes the basic methods and properties for all products, without detailing how they are implemented.
+
+### Deserialization
+
+deserialization of JSON data from a file into `Product` objects

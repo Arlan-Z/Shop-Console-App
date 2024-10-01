@@ -43,11 +43,15 @@ namespace OnlineStore
             }
             else
             {
+                double totalPrice = 0.0;
                 Console.WriteLine("Текущая корзина:");
                 foreach (var item in _items)
                 {
                     Console.WriteLine($"ID:{item.Product.Id} {item.Product.Name} - {item.Quantity} шт. - {item.Product.Price:N2} за штуку");
+                    totalPrice += item.Quantity * (double)item.Product.Price;
                 }
+
+                Console.WriteLine($"Общая сумма: {totalPrice:N2}");
             }
         }
     }
