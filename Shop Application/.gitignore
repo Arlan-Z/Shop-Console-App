@@ -1,0 +1,62 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]e/
+
+# Rider
+.idea/
+.idea_modules/
+
+# User-specific files
+*.userprefs
+
+# Publish folder
+publish/
+
+# Visual Studio Code
+.vscode/
+
+# NuGet packages
+**/packages/*
+!.nuget/
+
+# Visual Studio 2019
+.vs/
+.vsconfig
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+*.dbmdl
+*.dbproj.schemaview
+
+# Others
+*.ncb
+*.sdf
+*.opensdf
+*.suo
+*.cache
+*.pdb
+*.exe
+*.dll
+*.appx
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Backup files
+*~
